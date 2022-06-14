@@ -6,7 +6,6 @@ body {
     color: $primary-text-color;
     margin: 0;
     padding: 0;
-    overflow-x: clip;
   }
   
   h1,
@@ -50,8 +49,6 @@ body {
   }
   
   .container {
-    //   overflow-x: clip;
-      text-overflow: ellipsis;
       max-width: 1440px;
       padding: 0 25px;
       margin: 0 auto;
@@ -62,8 +59,8 @@ body {
       @media screen and (min-width: 768px) {
           width: 768px;
       }
-      @media screen and (min-width: 1440px) {
-          width: 1440px;
+      @media screen and (min-width: 1366px) {
+          width: 1366px;
           padding: 0 180px;
       }
   }

@@ -1,6 +1,5 @@
 .hero {
     padding-top: 47px;
-    // position: relative;
     @media screen and (min-width: 768px) {
         padding-top: 128px;
     }
@@ -8,13 +7,12 @@
 
 .hero__container {
     position: relative;
-    // overflow-x: hidden;
 }
 .hero__container h2 {
     @media screen and (min-width: 768px) {
         width: 340px;
     }    
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         width: 565px;
         font-size: 56px;
     }
@@ -29,12 +27,13 @@
     background-color: $button-bg-color;
     opacity: 0.4;
     filter: blur(120px);
+    -webkit-appearance: none;
     @media screen and (min-width: 768px) {
         top: -13px;
         right: 208px;
         filter: blur(100px);
     }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         width: 452.94px;
         height: 452.94px;
         top: -78px;
@@ -46,16 +45,17 @@
     position: absolute;
     width: 268.67px;
     height: 268.67px;
-    right: -100px;
+    right: -26px;
     top: -59px;
     background-color: $bg-color;
     opacity: 0.4;
     filter: blur(120px);
+    -webkit-appearance: none;
     @media screen and (min-width: 768px) {
         top: -126px;
         filter: blur(100px);     
     }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         width: 563px;
         height: 563px;
         right: -209px;
@@ -71,7 +71,7 @@
     @media screen and (min-width: 768px) {
         width: 340px;
     }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
       width: 565px;  
     }    
 }

@@ -12,7 +12,7 @@
 .header__logo {
     display: flex;
     margin-top: 5px;
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         margin-right: 44px;
     }
 }
@@ -34,7 +34,7 @@
         display: flex;
         align-items: center;
     }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -100,7 +100,7 @@
         width: 155px;
         padding: 8px 20px;
     }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         margin-left: 29px;
     }
 }

@@ -1,6 +1,6 @@
 .artist {
     padding-top: 150px;
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         padding-top: 118px;
     }
 }
@@ -12,7 +12,7 @@
 .artist__title {
     line-height: 140%;
     text-align: center;
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         font-size: 32px;
     }
 }
@@ -23,7 +23,7 @@
     text-align: center;
     width: 195px;
     margin-top: 12px;
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1366px) {
         width: 100%;
         font-size: 16px;
     }
