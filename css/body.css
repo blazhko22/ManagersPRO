@@ -645,19 +645,19 @@ svg:not(:root) {
   width: 216.15px;
   height: 216.15px;
   top: 40px;
-  right: 85px;
-  background: #444BD3;
+  right: 142px;
+  background-color: #444BD3;
   opacity: 0.4;
-  -webkit-filter: blur(200px);
-          filter: blur(200px);
-  z-index: 1;
+  -webkit-filter: blur(120px);
+          filter: blur(120px);
 }
 
 @media screen and (min-width: 768px) {
   .header__bg_left {
-    width: 335px;
-    height: 335px;
-    right: 270px;
+    top: 136px;
+    right: 315px;
+    -webkit-filter: blur(100px);
+            filter: blur(100px);
   }
 }
 
@@ -667,6 +667,8 @@ svg:not(:root) {
     height: 452.94px;
     top: 72px;
     right: 500px;
+    -webkit-filter: blur(170px);
+            filter: blur(170px);
   }
 }
 
@@ -674,20 +676,19 @@ svg:not(:root) {
   position: absolute;
   width: 268.67px;
   height: 268.67px;
-  right: -129px;
+  right: 0;
   top: -8px;
-  background: #90ECF4;
+  background-color: #90ECF4;
   opacity: 0.4;
-  -webkit-filter: blur(200px);
-          filter: blur(200px);
-  z-index: 1;
+  -webkit-filter: blur(120px);
+          filter: blur(120px);
 }
 
 @media screen and (min-width: 768px) {
   .header__bg_right {
-    width: 416px;
-    height: 416px;
     top: 0;
+    -webkit-filter: blur(100px);
+            filter: blur(100px);
   }
 }
 
@@ -697,6 +698,8 @@ svg:not(:root) {
     height: 563px;
     right: -129px;
     top: 0px;
+    -webkit-filter: blur(170px);
+            filter: blur(170px);
   }
 }
 

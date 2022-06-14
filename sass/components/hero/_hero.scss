@@ -20,45 +20,45 @@
     width: 216.15px;
     height: 216.15px;
     top: 40px;
-    right: 85px;
-    background: $button-bg-color;
+    right: 142px;
+    background-color: $button-bg-color;
     opacity: 0.4;
-    filter: blur(200px);
-    z-index: 1;
+    filter: blur(120px);
     @media screen and (min-width: 768px) {
-        width: 335px;
-        height: 335px;
-        right: 270px;
+        top: 136px;
+        right: 315px;
+        filter: blur(100px);
     }
     @media screen and (min-width: 1440px) {
         width: 452.94px;
         height: 452.94px;
         top: 72px;
         right: 500px;
+        filter: blur(170px);
     }
 }
 .header__bg_right {
     position: absolute;
     width: 268.67px;
     height: 268.67px;
-    right: -129px;
+    right: 0;
     top: -8px;
-    background: $bg-color;
+    background-color: $bg-color;
     opacity: 0.4;
-    filter: blur(200px);
-    z-index: 1;
+    filter: blur(120px);
     @media screen and (min-width: 768px) {
-        width: 416px;
-        height: 416px; 
-        top: 0;     
+        top: 0;
+        filter: blur(100px);     
     }
     @media screen and (min-width: 1440px) {
         width: 563px;
         height: 563px;
         right: -129px;
         top: 0px;
+        filter: blur(170px);
     }
 }
+
 .hero_text {
     font-size: 20px;
     line-height: 180%;
