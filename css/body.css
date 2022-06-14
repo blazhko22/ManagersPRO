@@ -270,7 +270,7 @@ body {
   color: rgba(18, 17, 39, 0.56);
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 h1,
@@ -455,7 +455,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .header__box_find {
-    width: 168px;
+    width: 155px;
+    padding: 4px 20px;
   }
 }
 
@@ -497,6 +498,7 @@ img {
   .header__box_saved {
     margin-top: 0;
     width: 158px;
+    padding: 8px 20px;
   }
 }
 
@@ -519,6 +521,7 @@ img {
     margin-top: 0;
     margin-left: 5px;
     width: 155px;
+    padding: 8px 20px;
   }
 }
 
@@ -618,13 +621,16 @@ svg:not(:root) {
 
 .hero {
   padding-top: 47px;
-  position: relative;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 128px;
   }
+}
+
+.hero__container {
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -644,8 +650,8 @@ svg:not(:root) {
   position: absolute;
   width: 216.15px;
   height: 216.15px;
-  top: 40px;
-  right: 142px;
+  top: -12px;
+  right: 76px;
   background-color: #444BD3;
   opacity: 0.4;
   -webkit-filter: blur(120px);
@@ -654,8 +660,8 @@ svg:not(:root) {
 
 @media screen and (min-width: 768px) {
   .header__bg_left {
-    top: 136px;
-    right: 315px;
+    top: -13px;
+    right: 208px;
     -webkit-filter: blur(100px);
             filter: blur(100px);
   }
@@ -665,8 +671,8 @@ svg:not(:root) {
   .header__bg_left {
     width: 452.94px;
     height: 452.94px;
-    top: 72px;
-    right: 500px;
+    top: -78px;
+    right: 272px;
     -webkit-filter: blur(170px);
             filter: blur(170px);
   }
@@ -676,8 +682,8 @@ svg:not(:root) {
   position: absolute;
   width: 268.67px;
   height: 268.67px;
-  right: 0;
-  top: -8px;
+  right: -100px;
+  top: -59px;
   background-color: #90ECF4;
   opacity: 0.4;
   -webkit-filter: blur(120px);
@@ -686,7 +692,7 @@ svg:not(:root) {
 
 @media screen and (min-width: 768px) {
   .header__bg_right {
-    top: 0;
+    top: -126px;
     -webkit-filter: blur(100px);
             filter: blur(100px);
   }
@@ -696,8 +702,8 @@ svg:not(:root) {
   .header__bg_right {
     width: 563px;
     height: 563px;
-    right: -129px;
-    top: 0px;
+    right: -209px;
+    top: -127px;
     -webkit-filter: blur(170px);
             filter: blur(170px);
   }

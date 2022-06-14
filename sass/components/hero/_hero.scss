@@ -1,9 +1,14 @@
 .hero {
     padding-top: 47px;
-    position: relative;
+    // position: relative;
     @media screen and (min-width: 768px) {
         padding-top: 128px;
     }
+}
+
+.hero__container {
+    position: relative;
+    // overflow-x: hidden;
 }
 .hero__container h2 {
     @media screen and (min-width: 768px) {
@@ -19,21 +24,21 @@
     position: absolute;
     width: 216.15px;
     height: 216.15px;
-    top: 40px;
-    right: 142px;
+    top: -12px;
+    right: 76px;
     background-color: $button-bg-color;
     opacity: 0.4;
     filter: blur(120px);
     @media screen and (min-width: 768px) {
-        top: 136px;
-        right: 315px;
+        top: -13px;
+        right: 208px;
         filter: blur(100px);
     }
     @media screen and (min-width: 1440px) {
         width: 452.94px;
         height: 452.94px;
-        top: 72px;
-        right: 500px;
+        top: -78px;
+        right: 272px;
         filter: blur(170px);
     }
 }
@@ -41,20 +46,20 @@
     position: absolute;
     width: 268.67px;
     height: 268.67px;
-    right: 0;
-    top: -8px;
+    right: -100px;
+    top: -59px;
     background-color: $bg-color;
     opacity: 0.4;
     filter: blur(120px);
     @media screen and (min-width: 768px) {
-        top: 0;
+        top: -126px;
         filter: blur(100px);     
     }
     @media screen and (min-width: 1440px) {
         width: 563px;
         height: 563px;
-        right: -129px;
-        top: 0px;
+        right: -209px;
+        top: -127px;
         filter: blur(170px);
     }
 }

@@ -6,7 +6,7 @@ body {
     color: $primary-text-color;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
   
   h1,
@@ -50,6 +50,7 @@ body {
   }
   
   .container {
+    //   overflow-x: clip;
       text-overflow: ellipsis;
       max-width: 1440px;
       padding: 0 25px;

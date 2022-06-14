@@ -52,7 +52,8 @@
     cursor: pointer;
     background-color: $primary-bg-color;
     @media screen and (min-width: 768px) {
-        width: 168px;
+        width: 155px;
+        padding: 4px 20px;
     }
 }
 
@@ -79,6 +80,7 @@
     @media screen and (min-width: 768px) {
         margin-top: 0;
         width: 158px;
+        padding: 8px 20px;
     }
 }
 .header__box_log {
@@ -96,6 +98,7 @@
         margin-top: 0;
         margin-left: 5px;
         width: 155px;
+        padding: 8px 20px;
     }
     @media screen and (min-width: 1440px) {
         margin-left: 29px;
