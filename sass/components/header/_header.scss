@@ -1,0 +1,103 @@
+.header__container {
+    position: relative;
+    display: flex;
+    padding-top: 26px;
+    justify-content: space-between;
+    align-items: start;
+    @media screen and (min-width: 768px) {
+        align-items: center;
+    }
+}
+
+.header__logo {
+    display: flex;
+    margin-top: 5px;
+    @media screen and (min-width: 1440px) {
+        margin-right: 44px;
+    }
+}
+
+.header__box {
+    display: none;
+    &.active {
+        position: absolute;
+        top: 61px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        padding: 25px;
+        background-image: linear-gradient(to top, $button-bg-color, $bg-color);
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+    }
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+}
+.header__box_find {
+    font-size: 14px;
+    line-height: 24px;
+    color: $button-text-secondary;
+    width: 170px;
+    border: 1px solid $button-mobil-color;
+    border-radius: 6px;     
+    padding: 4px 28px;
+    cursor: pointer;
+    background-color: $primary-bg-color;
+    @media screen and (min-width: 768px) {
+        width: 168px;
+    }
+}
+
+.header__box_saved-log {
+    @media screen and (max-width: 767px) {    
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    @media screen and (min-width: 768px) {
+        display: block;
+        margin-left: 10px;
+    }
+}
+.header__box_saved {
+    font-size: 14px;
+    line-height: 24px;
+    color: $button-text-color;
+    width: 176px;
+    border-radius: 6px;     
+    padding: 8px 28px;
+    cursor: pointer;
+    background-color: $button-bg-color;
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+        width: 158px;
+    }
+}
+.header__box_log {
+    font-size: 14px;
+    line-height: 24px;
+    color: $button-text-color;
+    width: 176px;
+    border-radius: 6px;     
+    padding: 8px 28px;
+    cursor: pointer;
+    background-color: $button-bg-color;
+    margin-top: 20px;
+    z-index: 5;
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+        margin-left: 5px;
+        width: 155px;
+    }
+    @media screen and (min-width: 1440px) {
+        margin-left: 29px;
+    }
+}

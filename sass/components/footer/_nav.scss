@@ -1,0 +1,26 @@
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 1440px) {
+        flex-direction: row;
+    }
+}
+.footer__nav_item {
+    margin-bottom: 23px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    & a {
+        font-size: 16px;
+        line-height: 180%;
+        color: $primary-text-color;
+    }
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 0;
+        margin-right: 72px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

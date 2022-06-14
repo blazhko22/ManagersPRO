@@ -1,0 +1,43 @@
+.artist {
+    padding-top: 150px;
+    @media screen and (min-width: 1440px) {
+        padding-top: 118px;
+    }
+}
+.artist__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artist__title {
+    line-height: 140%;
+    text-align: center;
+    @media screen and (min-width: 1440px) {
+        font-size: 32px;
+    }
+}
+.artist__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+    width: 195px;
+    margin-top: 12px;
+    @media screen and (min-width: 1440px) {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+.artist__button {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 6px 20px;
+    margin-top: 39px;
+    color: $button-text-color;
+    background: $button-bg-color;
+    border-radius: 6px;
+    cursor: pointer;
+    & span {
+        margin-left: 6px;
+    }
+}

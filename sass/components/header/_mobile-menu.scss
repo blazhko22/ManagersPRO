@@ -1,0 +1,72 @@
+.header__mobile {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.header__mobile svg {
+    height: 40px;
+    width: 60px;
+  }
+  
+  .header__mobile svg {
+    cursor: pointer;
+    height: 50px;
+    transform: translate3d(0px, 0px, 0px);
+    width: 80px;
+  }
+  
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  
+  .header__mobile path.top,
+  .header__mobile path.bottom {
+    stroke-dasharray: 240px, 950px;
+  }
+  
+  .header__mobile path {
+    fill: none;
+    stroke: $mobile-button-color;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-width: 40px;
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s, stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s;
+  }
+  
+  .header__mobile path.middle {
+    stroke-dasharray: 240px, 240px;
+  }
+  
+  .header__mobile path {
+    fill: none;
+    stroke: $mobile-button-color;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-width: 40px;
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s, stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s;
+  }
+  
+  .header__mobile.active path.top,
+  .header__mobile.active path.bottom {
+    stroke-dashoffset: -650px;
+  }
+  
+  .header__mobile path.top,
+  .header__mobile path.bottom {
+    stroke-dasharray: 240px, 950px;
+  }
+  
+  .header__mobile.active path.middle {
+    stroke-dasharray: 1px, 220px;
+    stroke-dashoffset: -115px;
+  }
